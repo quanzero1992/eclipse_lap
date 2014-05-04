@@ -9,7 +9,7 @@ class doc_config {
 
 	/**
 	 Doc du lieu tu file data.properties
-	 xin chao toi la Quab
+	 hello
 	 */
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		Properties pr= new Properties();
