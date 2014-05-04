@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="jdbc/|test_jdbc/|jdbc/|test_jdbc/" kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre6"/>
+	<classpathentry kind="lib" path="E:/Study/Java/mysql-connector-java-5.1.29/mysql-connector-java-5.1.29/mysql-connector-java-5.1.29-bin.jar"/>
+	<classpathentry kind="lib" path="src/ketnoi/jxl-2.6.jar"/>
+	<classpathentry kind="lib" path="poi-3.8-beta4-20110826.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

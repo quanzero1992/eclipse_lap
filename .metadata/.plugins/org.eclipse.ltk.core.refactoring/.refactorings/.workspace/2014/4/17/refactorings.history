@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;sendmainl&apos; to &apos;sendmail&apos;" description="Rename resource &apos;sendmainl&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/sendmainl" name="sendmail" stamp="1398133295556" updateReferences="true"/>
+</session>
