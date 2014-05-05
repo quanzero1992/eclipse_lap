@@ -1,20 +1,13 @@
 INDEX VERSION 1.126+C:\projects\interconect\eclipse_lap\.metadata\.plugins\org.eclipse.jdt.core
-1674092712.index
 3838595354.index
 54703828.index
-3730526690.index
 1794832342.index
-3277441100.index
-1789169078.index
-4251467834.index
 2681839187.index
 4196295524.index
-2594609853.index
 761640860.index
-3000053649.index
 3826853540.index
+2562194390.index
 240179048.index
-3270002986.index
 429340417.index
 205079240.index
 1036371111.index
@@ -23,7 +16,5 @@ INDEX VERSION 1.126+C:\projects\interconect\eclipse_lap\.metadata\.plugins\org.e
 430024309.index
 3847764547.index
 2802884366.index
-3585733931.index
 730986270.index
 1825434394.index
-2877109961.index

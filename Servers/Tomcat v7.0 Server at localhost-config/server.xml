@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log." resolveHosts="false" suffix=".txt"/>
 
-      <Context docBase="helloworld" path="/helloworld" reloadable="true" source="org.eclipse.jst.jee.server:helloworld"/><Context docBase="testjsp" path="/testjsp" reloadable="true" source="org.eclipse.jst.jee.server:testjsp"/><Context docBase="jsp_servletcore" path="/jsp_servletcore" reloadable="true" source="org.eclipse.jst.jee.server:jsp_servletcore"/><Context docBase="testw" path="/testw" reloadable="true" source="org.eclipse.jst.jee.server:testw"/><Context docBase="Quan243" path="/Quan243" reloadable="true" source="org.eclipse.jst.jee.server:Quan243"/></Host>
+      <Context docBase="helloworld" path="/helloworld" reloadable="true" source="org.eclipse.jst.jee.server:helloworld"/><Context docBase="testjsp" path="/testjsp" reloadable="true" source="org.eclipse.jst.jee.server:testjsp"/><Context docBase="jsp_servletcore" path="/jsp_servletcore" reloadable="true" source="org.eclipse.jst.jee.server:jsp_servletcore"/><Context docBase="testw" path="/testw" reloadable="true" source="org.eclipse.jst.jee.server:testw"/><Context docBase="Quan243" path="/Quan243" reloadable="true" source="org.eclipse.jst.jee.server:Quan243"/><Context docBase="git_1" path="/git_1" reloadable="true" source="org.eclipse.jst.jee.server:git_1"/></Host>
     </Engine>
   </Service>
 </Server>

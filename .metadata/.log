@@ -5240,3 +5240,6 @@ org.eclipse.core.internal.resources.ResourceException: The project description f
 
 !ENTRY org.apache.ivyde.eclipse 1 0 2014-05-05 14:24:58.334
 !MESSAGE IvyDE plugin started
+
+!ENTRY org.eclipse.jdt.launching 4 150 2014-05-05 16:53:10.162
+!MESSAGE The archive: E:/Study/Java/Elcom/tomcat/lib/bin/bootstrap.jar which is referenced by the classpath, does not exist.
