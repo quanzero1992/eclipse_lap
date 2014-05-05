@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="92" version="2.0">
+<workbench progressCount="80" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="691" x="683" y="0">
+<window height="768" maximized="true" minimized="true" width="691" x="683" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="160" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="254" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.liferay.ide.eclipse.ui.shortcuts.actionSet" itemType="typeToolBarContribution" x="129" y="22"/>
 <coolItem id="com.vaadin.integration.eclipse.actionSet" itemType="typeToolBarContribution" x="53" y="22"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="132" y="22"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
 <coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="91" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
@@ -24,7 +25,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.wst.html.core.htmlsource.source" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.html.core.htmlsource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jst.jsp.core.jspsource.source" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.server.ui.editor" itemType="typePlaceholder" x="-1" y="-1"/>
@@ -44,6 +45,8 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
@@ -52,9 +55,17 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/sendmail/src/sendmailbean.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="568" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="guimail.java" partName="guimail.java" path="D:/ELCOM/C1RT/JAVA WORKING SPACES/javacore/src/sendmail/guimail.java" title="guimail.java" tooltip="javacore/src/sendmail/guimail.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="guimail.java" partName="guimail.java" path="C:/projects/interconect/eclipse_lap/javacore/src/sendmail/guimail.java" title="guimail.java" tooltip="javacore/src/sendmail/guimail.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/javacore/src/sendmail/guimail.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="469" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wst.html.core.htmlsource.source" name="index.html" partName="index.html" path="C:/projects/interconect/eclipse_lap/git/WebContent/index.html" title="index.html" tooltip="git/WebContent/index.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/git/WebContent/index.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="426" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.wst.html.core.htmlsource.source" name="index 2.html" partName="index 2.html" path="C:/projects/interconect/eclipse_lap/git_1/WebContent/index 2.html" title="index 2.html" tooltip="git_1/WebContent/index 2.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/git_1/WebContent/index 2.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="292" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -112,7 +123,7 @@
 <viewState CommonNavigator.LINKING_ENABLED="0"/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
+<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -137,6 +148,7 @@
 <alwaysOnActionSet id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
 <alwaysOnActionSet id="org.eclipse.wst.ws.explorer.explorer"/>
+<alwaysOnActionSet id="com.liferay.ide.eclipse.ui.shortcuts.actionSet"/>
 <show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <show_view_action id="org.eclipse.wst.server.ui.ServersView"/>
 <show_view_action id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
@@ -210,7 +222,7 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.20557229" ratioLeft="273" ratioRight="1055" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottomRight" ratio="0.5811836" ratioLeft="383" ratioRight="276" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.wst.server.ui.ServersView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.AllMarkersView" label="LabelNotFound"/>
@@ -457,6 +469,8 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javacore/src/sendmail/guimail.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/sendmail/src/sendmailbean.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/javacore/src/sendmail/guimail.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" path="/git/WebContent/index.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" path="/git_1/WebContent/index 2.html"/>
 </editors>
 <item historyLabel="NewFile.jsp" index="0">
 <position info="not_deleted" x="853" y="0"/>
@@ -581,7 +595,19 @@
 <item historyLabel="sendmailbean.java" index="8">
 <position/>
 </item>
-<item active="true" historyLabel="guimail.java" index="9">
+<item historyLabel="guimail.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="index.html" index="10">
+<position info="not_deleted" x="411" y="0"/>
+</item>
+<item historyLabel="index.html" index="10">
+<position info="not_deleted" x="310" y="2"/>
+</item>
+<item historyLabel="index.html" index="10">
+<position info="not_deleted" x="426" y="0"/>
+</item>
+<item active="true" historyLabel="index 2.html" index="11">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
@@ -592,7 +618,6 @@
 <trimLayout>
 <trimArea IMemento.internal.id="131072">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@1679cc1"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
@@ -607,6 +632,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="index 2.html" tooltip="git_1/WebContent/index 2.html">
+<persistable path="/git_1/WebContent/index 2.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.html.core.htmlsource.source" name="index.html" tooltip="git/WebContent/index.html">
+<persistable path="/git/WebContent/index.html"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="guimail.java" tooltip="javacore/src/sendmail/guimail.java">
 <persistable path="/javacore/src/sendmail/guimail.java"/>
 </file>
