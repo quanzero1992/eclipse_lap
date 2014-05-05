@@ -9,7 +9,7 @@ target/
 *.rar
 *.tar
 *.zip
-*.war
+
 *.ear
 *.sar
 *.class
