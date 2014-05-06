@@ -6268,3 +6268,9 @@ org.eclipse.core.internal.resources.ResourceException: Resource is out of sync w
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
 !SUBENTRY 1 org.eclipse.core.resources 4 274 2014-05-06 09:32:52.368
 !MESSAGE Resource is out of sync with the file system: '/git/WebContent/index.html'.
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2014-05-06 10:00:38.051
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2014-05-06 10:00:38.063
+!MESSAGE IvyDE plugin started
